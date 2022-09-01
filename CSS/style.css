@@ -419,6 +419,9 @@ footer{
         font-weight: lighter;
         font-size: smaller;
     }
+    .footer_right p{
+        display: none;
+    }
     .subscribe{
         margin-top: 5px;
     }
