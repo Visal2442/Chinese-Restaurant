@@ -201,6 +201,7 @@ h2{
     gap: 20px;
     margin: 15px 0;
 }
+
 .card{
     background: rgb(182, 25, 25);
     width: 100%;
@@ -400,6 +401,7 @@ footer{
         gap: 10px;
         margin: 5px 0;
     }
+   
 
 /* _____________Main2___________________ */
     .main2{
