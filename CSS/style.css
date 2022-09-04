@@ -317,9 +317,56 @@ footer{
     color: #ffffff;
 }
 
+@media(max-width: 835px){
+    body{
+        height: 185vh;
+        padding: 0;
+    }
+    
+    /* ______________Main1_____________ */
+    .main1{
+        padding: 60px 80px;
+    }
+    .main1_left{
+        width: 50%;
+    }
+    .main1_right img{
+        top: 5%;
+        right: 0;
+    }
+
+    /* __________Menu_______________ */
+    .menu_table{
+        margin-left: 70px;
+    }
+
+    /* _________Product______________ */
+    .card_container{
+        grid-template-columns: auto auto auto;
+    }
+    .card:last-child{
+        display: none;
+    }
+
+    /* ____________Main2____________ */
+    .main2_left img{
+        right: 50%;
+    }
+
+    /* __________Footer_______________ */
+    footer{
+        justify-content: space-evenly;
+    }
+    .footer_center ul li:first-child{
+        display: none;
+    }
+    
+}
+
+
 @media(max-width:420px){
     body{
-        height: 300vh;
+        height: 250vh;
         width: auto;
         padding: 0;
         grid-template-rows: auto auto auto auto auto auto auto auto auto;
@@ -327,6 +374,7 @@ footer{
     h2{
         font-size: 30px;
     }
+    
 /* _______Nav__________ */
     nav{
         padding:10px 20px;
@@ -349,23 +397,25 @@ footer{
     /* __________Main1_________ */
     .main1{
         display: flex;
-        padding-top: 0;
+        padding:50px;
         flex-direction: column-reverse;
         align-items: center;
     }
     .main1_left{
         width: 100%;
         gap: 5px;
+        margin-top: -40px;
     }
     .main1_right img{
         position:static;
         width: 400px;
-        margin: -60px 0 -30px 0;
+        margin-top: -100px;
     }
 
 /* _________Menu_______________ */
     .menu,
     .menu_table{
+        margin: 0;
         gap: 0;
     }
     .row{
@@ -403,7 +453,10 @@ footer{
     .card_container{
         grid-template-columns: auto auto;
         gap: 5px;
-        margin: 5px 40px 5px 0;
+        margin-right: 40px;
+    }
+    .card:nth-child(3){
+        display: none;
     }
 
 /* _____________Main2___________________ */
@@ -415,12 +468,11 @@ footer{
     .main2_left img{
         position: static;
         width: 400px;
-        margin-top: 20%;
+        margin-top: -20%;
     }
     .main2_right{
         width: 90%;
-        margin: 0;
-        margin-right: 20px;
+        margin: -30px 20px 0 0;
         gap: 5px;
         font-size: small;
         line-height: 25px;
@@ -479,50 +531,5 @@ footer{
     }
 }
 
-@media(max-width: 835px){
-    body{
-        height: 185vh;
-        padding: 0;
-    }
-    
-    /* ______________Main1_____________ */
-    .main1{
-        padding: 60px 80px;
-    }
-    .main1_left{
-        width: 50%;
-    }
-    .main1_right img{
-        top: 5%;
-        right: 0;
-    }
 
-    /* __________Menu_______________ */
-    .menu_table{
-        margin-left: 70px;
-    }
-
-    /* _________Product______________ */
-    .card_container{
-        grid-template-columns: auto auto auto;
-    }
-    .card:last-child{
-        display: none;
-    }
-
-    /* ____________Main2____________ */
-    .main2_left img{
-        right: 50%;
-    }
-
-    /* __________Footer_______________ */
-    footer{
-        justify-content: space-evenly;
-    }
-    .footer_center ul li:first-child{
-        display: none;
-    }
-    .footer_center ul{
-    }
-}
     
