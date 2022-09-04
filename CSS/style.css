@@ -129,12 +129,9 @@ h2{
     flex-direction: column;
     color: #ffffff;
     gap: 15px;             
-    /* margin-right: 10%; */
-    /* padding-left: 10px; */
 }
 .row{
     display: flex;
-    /* padding: 13px; */
     align-items: center;
 }
 .row_left p{
@@ -143,10 +140,11 @@ h2{
     text-transform: uppercase;
 }
 .row_left{
-    margin-right: 90px;
+    margin-right: 10px;
+    width: 350px;
 }
 .row_right{
-    width: 300px;
+    width: 350px;
     display: flex;
     align-items: center;
     gap: 12px;
