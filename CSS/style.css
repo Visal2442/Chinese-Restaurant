@@ -478,4 +478,51 @@ footer{
         border-radius: 0 5px 5px 0;
     }
 }
+
+@media(max-width: 835px){
+    body{
+        height: 185vh;
+        padding: 0;
+    }
+    
+    /* ______________Main1_____________ */
+    .main1{
+        padding: 60px 80px;
+    }
+    .main1_left{
+        width: 50%;
+    }
+    .main1_right img{
+        top: 5%;
+        right: 0;
+    }
+
+    /* __________Menu_______________ */
+    .menu_table{
+        margin-left: 70px;
+    }
+
+    /* _________Product______________ */
+    .card_container{
+        grid-template-columns: auto auto auto;
+    }
+    .card:last-child{
+        display: none;
+    }
+
+    /* ____________Main2____________ */
+    .main2_left img{
+        right: 50%;
+    }
+
+    /* __________Footer_______________ */
+    footer{
+        justify-content: space-evenly;
+    }
+    .footer_center ul li:first-child{
+        display: none;
+    }
+    .footer_center ul{
+    }
+}
     
