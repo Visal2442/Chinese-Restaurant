@@ -111,11 +111,15 @@ h1{
 }
 
 /* _________________Menu______________ */
+.menu,
+.row,
+.row_right{
+    display: flex;
+    align-items: center;
+}
 .menu{
     grid-area: menu;
-    display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 5%;
 }
 h2{
@@ -130,10 +134,6 @@ h2{
     color: #ffffff;
     gap: 15px;             
 }
-.row{
-    display: flex;
-    align-items: center;
-}
 .row_left p{
     font-size: large;
     font-weight: bold;
@@ -145,8 +145,6 @@ h2{
 }
 .row_right{
     width: 350px;
-    display: flex;
-    align-items: center;
     gap: 12px;
     font-size: small;
 }
@@ -166,7 +164,6 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 4%; */
     margin: 5% 0;
 }
 .photo{
@@ -358,7 +355,6 @@ footer{
     .footer_center ul li:first-child{
         display: none;
     }
-    
 }
 
 
@@ -412,7 +408,8 @@ footer{
 
 /* _________Menu_______________ */
     .menu,
-    .menu_table{
+    .menu_table,
+    .row_left{
         margin: 0;
         gap: 0;
     }
@@ -420,8 +417,6 @@ footer{
         padding: 7px;
     }
     .row_left{
-        margin: 0;
-        gap: 0;
         width: 200px;
     }
     .row_left p{
@@ -496,7 +491,7 @@ footer{
     .footer_left img{
         width: 50px;
     }
-    .m,.o,.c{
+    .m,.o,.c,.footer_right p{
         display: none;
     }
     .footer_center ul{
@@ -507,9 +502,6 @@ footer{
         text-transform: capitalize;
         font-weight: lighter;
         font-size: smaller;
-    }
-    .footer_right p{
-        display: none;
     }
     .subscribe{
         margin-top: 5px;
