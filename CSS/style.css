@@ -390,12 +390,19 @@ footer{
     /* ___________Footer_____________ */
     footer{
         justify-content: center;
+        margin-left: -24%;
     }
     .footer_center{
         gap: 0;
     }
-    .m,.o,.c{
+    .h,.l{
         display: none;
+    }
+    .footer_right p{
+        display: none;
+    }
+    .subscribe{
+        margin: 0;
     }
 }
 
