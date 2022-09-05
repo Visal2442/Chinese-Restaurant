@@ -311,6 +311,8 @@ footer{
     padding: 9px;
     color: #ffffff;
 }
+
+
 @media(max-width:1024px){
     body{
         padding: 0;
@@ -330,7 +332,71 @@ footer{
     }
 
     /* _______________Menu_________________ */
+    .menu{
+        margin-left: -32%;
+    }
+    .row_left{
+        margin-right: 0;
+        width: 300px;
+    }
+    /* _____________Categories______________ */
+    .categories{
+        align-items: flex-start;
+        margin-left: 25%;
+    }
+    .photo{
+        grid-template-columns: auto;
+        margin-left: -15%;
+    }
+    .photo_left{
+        text-align: start;
+    }
+    .photo img{
+        border: 7px solid #b9a4a4 ;
+        border-radius: 5px;
+        width: 50%;
+    }
 
+    /* _____________Product__________- */
+    .product{
+        align-items: flex-start;
+        margin-left: 25%;
+    }
+    .card_container{
+        grid-template-columns: auto auto;
+        width: auto;
+        margin-left: -15%;
+    }
+
+    /* ___________Main2_____________- */
+    .main2{
+        position: relative;
+    }
+    .main2_left img{
+        width: 400px;
+        right: 60%;
+        top: 20%;
+        bottom: 0;
+    }
+    .main2_right{
+        width: 25%;
+        margin-left: 40%;
+    }
+    .service{
+        align-items: flex-start;
+        margin-left: 20%;
+    }
+
+    /* ___________Footer_____________ */
+    footer{
+        justify-content: center;
+    }
+    .footer_center{
+        gap: 0;
+    }
+    .m,.o,.c{
+        display: none;
+    }
 }
 
 @media(max-width: 835px){
