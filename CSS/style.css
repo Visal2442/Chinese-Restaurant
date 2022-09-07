@@ -411,6 +411,9 @@ footer{
         height: 185vh;
         padding: 0;
     }
+    nav{
+        justify-content: space-evenly;
+    }
     
     /* ______________Main1_____________ */
     .main1{
@@ -425,8 +428,8 @@ footer{
     }
 
     /* __________Menu_______________ */
-    .menu_table{
-        margin-left: 70px;
+    .menu{
+        margin: 0;
     }
 
     /* _________Product______________ */
