@@ -526,12 +526,16 @@ footer{
 
  /* ________Categories__________ */
     .categories{
+        align-items: center;
         margin: 0;
     }
     .photo{
-        margin: 5px 0;
+        grid-template-columns: auto auto;
+        /* margin-left: -15%; */
+        margin: 0;
     }
     .photo img{
+        width: 100%;
         height: auto;
     }
     
@@ -544,6 +548,10 @@ footer{
     }
     .card:nth-child(3){
         display: none;
+    }
+    .product{
+        align-items: center;
+        margin-left: 22%;
     }
 
 /* _____________Main2___________________ */
@@ -581,11 +589,12 @@ footer{
         justify-content: baseline;
         padding-left: 10px;
         gap: 10px;
+        margin: 0;
     }
     .footer_left img{
         width: 50px;
     }
-    .m,.o,.c,.footer_right p{
+    .footer_right p{
         display: none;
     }
     .footer_center ul{
