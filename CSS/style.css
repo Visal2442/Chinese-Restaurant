@@ -154,8 +154,9 @@ h2{
 .row:hover{
     background: white;
     color: red;
+    cursor: ~;
 }
-.r_i:hover{
+.row:hover .r_i{
     background: #ffae00;
 }
 /* __________________Categories______________________ */
@@ -313,7 +314,7 @@ footer{
 }
 
 
-@media(max-width:1024px){
+@media screen and (max-width:1024px){
     body{
         padding: 0;
     }
