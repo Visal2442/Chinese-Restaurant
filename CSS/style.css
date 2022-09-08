@@ -406,7 +406,7 @@ footer{
     }
 }
 
-@media(max-width: 835px){
+@media screen and (max-width: 835px){
     body{
         height: 185vh;
         padding: 0;
@@ -455,7 +455,7 @@ footer{
 }
 
 
-@media(max-width:420px){
+@media screen and (max-width:420px){
     body{
         height: 250vh;
         width: auto;
